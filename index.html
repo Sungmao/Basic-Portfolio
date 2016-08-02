@@ -11,37 +11,52 @@
 
 <body>
 
-	<header> 
+	<header class="myheader"> 
 
-	<h1>Sung Mao Wu</h1>
-	<ul>
-		<li><a href="index.html">About</a></li>
-		<li><a href="portfolio.html">Portfolio</a></li>
-		<li><a href="contact.html">Contact</a></li>
-	</ul>
+	<h1 class="myname">Sung Mao Wu</h1>
+	
+	<!--
+	<nav class="logo">
+		<ul>
+			<li><a href="index.html">About</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<-->
+
+	<nav class="nav_link">
+			<a href="index.html" class="logolink_about">About</a>    
+			<a href="portfolio.html" class="logolink_portfolio">Portfolio</a>    
+			<a href="contact.html" class="logolink_contact">Contact</a>
+	</nav>
+
 
 	</header>
 
-	<section>
+	<div class="main_area">
 
-		<h2>About Me</h2>
-		<img src="assets/images/sung.jpg" alt="Sung Mao Wu">
-		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	<section class="aboutme">
+
+		<h2 class="aboutme_head">About Me</h2>
+		<img src="assets/images/sung.jpg" alt="Sung Mao Wu" class="aboutme_pic">
+		<p class="p_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
 	</section>
 
-	<section>
+	<section class="contact_me">
 		
-		<h3>Contact Me</h3>
-		<a href=""><img src="assets/images/github_logo.png" alt="GitHub"></a>
-		<a href=""><img src="assets/images/linkein_logo.png" alt="Linkein"></a>
-		<a href=""><img src="assets/images/stackoverflow_logo.png" alt="Stack Overflow"></a>
+		<h3 class="contact_me_text">Contact with Me</h3>
+		<a href=""><img src="assets/images/github_logo.png" alt="GitHub" class="logo"></a>
+		<a href=""><img src="assets/images/linkein_logo.png" alt="Linkein" class="logo"></a>
+		<a href=""><img src="assets/images/stackoverflow_logo.png" alt="Stack Overflow" class="logo"></a>
 
 	</section>
+
+	</div>
 
 	<footer>
-		<p>@Copyright 2016 Sung Mao Wu</p>
-
+		<p class="footer_text">@Copyright 2016 Sung Mao Wu</p>
 	</footer>
 
 
